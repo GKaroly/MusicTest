@@ -47,14 +47,12 @@ public class Main {
 			sequence.start();
 
 		} catch (MidiUnavailableException | InvalidMidiDataException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			System.out.println("We got a problem!");
 		}
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Main main = new Main();
 		main.play();
 	}
